@@ -8,10 +8,11 @@
  * Controller of the angularYoApp
  */
 angular.module('storeApp')
-  .controller('CarCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('CarCtrl', function ($scope) {
+    $scope.items = 
+			{
+				name: 'subaru',
+				color: 'blue',
+				price: '$5000'
+			}
   });
