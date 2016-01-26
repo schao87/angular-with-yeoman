@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name angularYoApp.controller:MainCtrl
+ * @name angularYoApp.controller:CarCtrl
  * @description
- * # MainCtrl
+ * # CarCtrl
  * Controller of the angularYoApp
  */
 angular.module('storeApp')
-  .controller('MainCtrl', function () {
+  .controller('CarCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

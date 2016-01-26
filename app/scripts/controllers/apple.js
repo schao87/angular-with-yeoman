@@ -2,17 +2,16 @@
 
 /**
  * @ngdoc function
- * @name angularYoApp.controller:AboutCtrl
+ * @name angularYoApp.controller:AppleCtrl
  * @description
- * # AboutCtrl
+ * # AppleCtrl
  * Controller of the angularYoApp
  */
 angular.module('storeApp')
-  .controller('appleController',['$scope' function ($scope) {
-    $scope.items= [
-			{	name: 'apple',
-				color: 'red',
-				price: '$1'
-			}
-		];
-  }]);
+  .controller('AppleCtrl', function () {
+    this.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  });

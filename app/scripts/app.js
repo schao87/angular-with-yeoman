@@ -19,20 +19,20 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
+      .when('/apple', {
         templateUrl: 'views/apple.html',
-        controller: 'appleController',
-        controllerAs: 'appleCtrl'
-      })
-      .when('/book', {
-        templateUrl: 'views/book.html',
-        controller: 'bookController',
-        controllerAs: 'bookCtrl'
+        controller: 'AppleCtrl',
+        controllerAs: 'apple'
       })
       .when('/car', {
         templateUrl: 'views/car.html',
-        controller: 'carController',
-        controllerAs: 'carCtrl'
+        controller: 'CarCtrl',
+        controllerAs: 'car'
+      })
+      .when('/book', {
+        templateUrl: 'views/book.html',
+        controller: 'BookCtrl',
+        controllerAs: 'book'
       })
       .otherwise({
         redirectTo: '/'
