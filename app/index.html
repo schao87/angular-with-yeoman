@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="storeApp">
+<head>
+	<title>angular practice</title>
+	<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="../bower_components/angular-route/angular-route.min.js"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+	<script type="text/javascript" src="scripts/controllers/controllers.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<button class="button" ng-click="go('/index')">home</button>
+	<button class="button" ng-click="go('/book')">book</button>
+	<button class="button" ng-click="go('/car')">car</button>
+	<div ng-view></div>
+</body>
+</html>
